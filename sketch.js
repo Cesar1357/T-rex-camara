@@ -133,8 +133,8 @@ function draw() {
   background(255);
   textSize(20);
   fill("black")
-  text("Puntuación: "+ score, camera.x+300,camera.y-300);
-  text("HI: "+ hight,camera.x+500,camera.y-300);
+  text("Puntuación: "+ score, camera.x+200,camera.y-200);
+  text("HI: "+ hight,camera.x+400,camera.y-200);
 
 
   if (gameState===inicio){
